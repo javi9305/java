@@ -1,5 +1,7 @@
-**¿Que es lo que necesitamos si queremos almacenar información?**
+# ¿Que es lo que necesitamos si queremos almacenar información?**
 
-necesitaremos crear variables que nos permita almacenar información.
+Necesitaremos crear variables que nos permita almacenar información.
 
-una **Variable** va a tener un **Identificador** que va almacenar un **valor**. Sin embargo este valor puede **cambiar/modificarse** a través del tiempo.
+# ¿Que es una variable?
+
+Es un espacio de memoria que nos ayuda a almacenar un valor y va a tener un **identificador**. Sin embargo este valor puede **cambiar o modificarse** a través del tiempo.
