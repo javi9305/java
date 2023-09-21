@@ -53,3 +53,15 @@ Los datos que tengamos **pueden ir cambiando a lo largo de la ejecución** del p
 * Primero tenemos que especificar el tipo en java que vamos a utilizar.
 * Posteriormente un identificador o nombre de la variable.
 * Se le asigna un valor dependiendo el tipo especificado.
+
+
+# ¿Cómo es la declaración de una variable?
+
+`Int` **(el tipo de dato)**     `NombreDeLaVariable` **(Identificador)** = `15` **(Valor)** dentro del cuerpo del programa.
+
+# ¿Como funciona de manera interna esta declaración de variable?
+
+Lo que hara la memoria RAM es internamente **apartar 4 bytes en memoria y crear una variable de tipo int que va a ocupar 4 bytes.**
+Entonces esos 4 bytes van a pertenecer a la variable **NombreDeLaVariable**, la cual se va a identificar como la variable **NombreDeLaVariable**.
+Teniendo reservado los 4 bytes de espacio en la memoria **se le asignara el valor 15** y en caso de que no tuviera nada solamente estaria reservado ese
+espacio de memoria.
