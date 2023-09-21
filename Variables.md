@@ -71,7 +71,7 @@ espacio de memoria.
 
 `Int a = 15`
 
-![Variable](VariableJava.jpeg "FOTO")
+![Variable](VariableJava.jpg "FOTO")
 
 
 # ¿Cómo imprimimos el valor de la variable declarada?
