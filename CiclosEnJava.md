@@ -39,4 +39,4 @@ Es cuando solamente depende de la voluntad del usuario y por lo tanto la cantida
 
 # ¿Cómo funciona el contador del ciclo for?
 
-![ciclofor](ciclofor.png "PROGRAMACION/imagenesjava/Ciclo for")
+![ciclofor](/imagenesjava/ciclofor.png "ciclo for")
