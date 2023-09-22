@@ -1,2 +1,2 @@
-![Scanner](claseScanner.png "clase")
-![Linea](linea.png "linea")
+![Scanner](/imagenesjava/claseScanner.png "clase")
+![Linea](/imagenesjava/linea.png "linea")
