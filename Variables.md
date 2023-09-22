@@ -150,7 +150,7 @@ Se refiere a que si escribes una palabra debe escribirse respetando esta notaci�
           
   **variablePersona**
 
-Observa que son dos palabras, entonces **la primera letra de cada palabra es la que debes poner atención**. **Si es una variable la primera letra va en minúsculas** pero después cada **primera letra de cada palabra va en mayúscula**(solo la primera letra)
+Observa que son dos palabras, entonces **la primera letra de cada palabra es la que debes poner atención**. **Si es una variable la primera letra va en minúsculas** pero después cada **primera letra de cada palabra va en mayúscula**(solo la primera letra).
 
 Otro ejemplo            
 
@@ -167,7 +167,8 @@ Todo en minúscula puedes observar que es muy difícil leer la variable y no es 
 # ¿Si tenemos más de una palabra para el identificador de la variable que  se recomienda  hacer?
                 
  Se recomienda **usar letra mayúscula en la segunda palabra** a esto se le conoce como notación de camello ejemplo:
-  miVariableEntera
+
+      miVariableEntera
 
 
 
@@ -196,7 +197,7 @@ a partir de la versión 10 de java ya que podemos usar la palabra reservada var.
 
 # ¿Qué es lo que sustitute la palabra var?
 
- el tipo de dato definido
+ el tipo de dato definido.
 
 # ¿Cómo funciona la palabra reservada var? 
 
@@ -207,6 +208,7 @@ Se coloca simplemente var en vez del tipo de dato definido para que java infiera
 el tipo de dato lo va a inferir a partir de la literal que estamos utilizando.
 Por ejemplo:
 `Int miVariable = 10;`
+
 `Var miVariable = 10;`
 
 
