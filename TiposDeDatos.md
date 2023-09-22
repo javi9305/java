@@ -67,7 +67,7 @@ False
 
 Nota: el rango en char en esta tabla es de Unicode. La pág. Web de Unicode es [unicode-table.com/es](https://unicode-table.com/es/) 
 
-# Ejemplo de un tipo primitivo
+# Ejemplo de conversión con datos primitivos erroneo.
 
 ![EjemploDatoPrimitivo](Imagen3.png "FOTO")
 
@@ -83,3 +83,58 @@ Resultado de realizar la conversión del valor entero a byte:
 Nota: 
 
 Al hacer una conversión fuera del rango mínimo y máximo del tipo de dato como por ejemplo short  que tiene 32767 se pierden bytes es decir que cada valor decimal se puede convertir a valor binarios (ceros y unos), la perdida es eliminar esos ceros y unos de un número y por tanto volver a convertir ese número binario a decimal no genera el mismo número (valor). 
+
+
+# Cadenas
+
+# ¿Qué es un String? 
+
+Es un conjunto de caracteres o son objetos
+
+Ejemplo:
+
+        String cadena = ”cadena” (se está creando un objeto de tipo String) o 
+        String cadena = new String (“cadena”).
+        
+        Strings es el nombre de una clase y por convención en java todas las clases deben empezar con la letra Mayúscula. 
+
+
+# ¿Cuáles son las características de una cadena?
+
+* Tratamiento especial
+* No es un tipo primitivo
+* Contexto String
+* No se necesita instanciar
+* En java el manejo de cadenas es un tipo object
+
+# ¿De qué tipo es la clase String?
+
+Es de tipo referenciado u Object.
+
+# ¿Por qué al momento de crear una cadena no es necesario el operador new ya que una cadena es de tipo String(String es una clase)?
+
+Porque podemos simplemente declarar un tipo String y asignar un valor cadena directamente a una variable, es por eso que pareciera que el tipo String es un tipo primitivo, esto se debe a que su uso era muy frecuente al momento de estar programando, en que se decidió simplificar el proceso de creación y asignación de valores.
+
+Ejemplo:
+
+        String saludo = “Hola mundo”
+
+
+
+# ¿Cuáles son los pasos para declarar una cadena?
+
+1.	Definir su nombre (identificador)
+2.	Asignar un valor, sin la necesidad de utilizar el operador new. Así podemos asignar directamente el valor de una cadena, utilizando comillas dobles para envolver el valor deseado.
+
+
+# ¿Cuál es la regla con el operador + en java ?
+
+No se permite la sobrecarga de operadores, lo que significa que no podemos alterar la función de los operadores para hacer lo que nosotros deseemos.
+
+# ¿Cuál es la excepción a la regla anterior cuando manejamos cadenas? 
+
+Cuando usamos el operador + y se detecta un tipo String en la operación, se dice que tenemos el contexto String, y por tanto en lugar de sumar valores, lo que hace java es concatenar los valores que se encuentran en la operación.
+
+# ¿Cómo podemos unir 2 cadenas?
+
+Con el operador +.
