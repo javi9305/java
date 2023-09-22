@@ -159,7 +159,7 @@ Otro ejemplo
 **Se le llama de camello por qué si observas hace una curva cada que pones una letra en mayúscula**.
 Esto se usa para que sea fácil leer las variables, ya que si pones:
 
- unavariablemaslarga
+      unavariablemaslarga
 
 Todo en minúscula puedes observar que es muy difícil leer la variable y no es posible distinguir cuando inicia una palabra y cuando termina otra palabra.
 
@@ -207,6 +207,7 @@ Se coloca simplemente var en vez del tipo de dato definido para que java infiera
 
 el tipo de dato lo va a inferir a partir de la literal que estamos utilizando.
 Por ejemplo:
+
 `Int miVariable = 10;`
 
 `Var miVariable = 10;`
