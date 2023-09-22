@@ -15,7 +15,7 @@ esto es un **strong** text
 
 <!-- Lista desordenada -->
 * Apple
-   * apple2
+    * apple2
 * orange
 * Etc
 
