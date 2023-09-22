@@ -33,10 +33,10 @@ Es cuando solamente depende de la voluntad del usuario y por lo tanto la cantida
         For: se usa cuando sabemos cuantas veces se va a repetir la instrucción
 
         While: se usa cuando sabemos cuando no vamos a continuar con la repetición 
-        
+
         Do while: cuando necesitamos que se entre en el ciclo al menos una vez.
 
 
 # ¿Cómo funciona el contador del ciclo for?
 
-![ciclofor](ciclofor.png "Ciclo for")
+![ciclofor](ciclofor.png "imagenesjava/Ciclo for")
