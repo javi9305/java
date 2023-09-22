@@ -90,7 +90,7 @@ En caso de querer mostrar el **valor 15 en pantalla se imprimará la variable a.
 * Un nombre de variable solo pueden ser letras, dígitos y el guion bajo o subguion.
 
 	  * Variable bien declarada: int programando19 o float numero_float
-    * Variable mal declarada: Int %programando o float variable-numérica.
+      * Variable mal declarada: Int %programando o float variable-numérica.
 
 
 **Regla #3**
