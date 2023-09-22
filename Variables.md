@@ -83,14 +83,13 @@ En caso de querer mostrar el **valor 15 en pantalla se imprimará la variable a.
 **Regla #1**
 
 * No tener el mismo nombre que una “palabra reservada”	Ejemplos: static, class, public, private, doublé, int, float, byte, true, false.     
-    *	Palabras mal reservadas: int class o byte default.
+*  Palabras mal reservadas: int class o byte default.
 
 **Regla #2**
 
-* Un nombre de variable solo pueden ser letras, dígitos y el guion bajo o subguion.
-
-	  * Variable bien declarada: int programando19 o float numero_float
-      * Variable mal declarada: Int %programando o float variable-numérica.
+ * Un nombre de variable solo pueden ser letras, dígitos y el guion bajo o subguion.
+  *  Variable bien declarada: int programando19 o float numero_float
+  *  Variable mal declarada: Int %programando o float variable-numérica.
 
 
 **Regla #3**
