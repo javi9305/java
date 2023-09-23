@@ -19,7 +19,7 @@ Ejemplos
 
 trabajan con operadores booleanos
 
-
+|           |            |  
 |   --------|:----------:|
 |   AND     |    &&
 |   OR      |    ||   
@@ -37,7 +37,7 @@ Cuando ambos(X o Y) sean verdaderos
 
 **Tabla de verdad AND(&&)**
 
-|             |         |      
+|             |              |      
 |   ----------|:------------:|
 |  x && x     |    true 
 |  x && y     |    false      
@@ -53,7 +53,7 @@ boolean y = false;
 
 **Tabla de verdad Or (||)**
 
-|             |         |      
+|             |              |      
 |   ----------|:------------:|
 |  x || x     |    true 
 |  x || y     |    true      
@@ -68,7 +68,7 @@ boolean y = false;
 
 **Tabla de verdad Not (!)**
 
-|             |         |      
+|             |              |      
 |   ----------|:------------:|
 |    ! y      |    true 
 |    ! x      |    false
@@ -81,7 +81,7 @@ boolean y = false;
 
 **Tabla de verdad XOr (| |)**
 
-|             |         |      
+|             |              |      
 |   ----------|:------------:|
 |   x ^ x     |    false
 |   x ^ y     |    true      
