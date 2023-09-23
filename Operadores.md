@@ -1,6 +1,7 @@
 # Operador de composición de suma
 
 ![operadorcomposicion](/imagenesjava/operadorcomposicion.png "operadorcomposicion")
+![precedencia2](/imagenesjava/precedencia2.png "precedencia2")
 
 
 Tambien puede aplicarse para resta, multiplicación y división
