@@ -1,6 +1,7 @@
 # Operador de composición de suma
 
-![operadorcomposicion](/imagenesjava/operadorComposion.png "operadorcomposicion")
+![operadorcomposicion](/imagenesjava/operadorcomposicion.png "operadorcomposicion")
+
 
 Tambien puede aplicarse para resta, multiplicación y división
 
@@ -20,17 +21,17 @@ Ejemplos
 trabajan con operadores booleanos
 
 
-  AND         &&
+        AND         &&
 
-  OR          ||   
+         OR          ||   
 
-  NOT          !   
+         NOT          !   
   
-  OR           | 
+         OR           | 
 
-  AND          &
+         AND          &
 
-  XOR          ^
+         XOR          ^
 
 Ejemplos: 
 
@@ -66,7 +67,10 @@ boolean y = false;
 
   y || y         false
 
-Lo contrario de (X o Y).
+
+
+
+**Lo contrario de (X o Y).**
 
 boolean x = true;
 
