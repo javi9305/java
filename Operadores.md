@@ -1,6 +1,6 @@
 # Operador de composición de suma
 
-![operadorComposicion](/imagenesjava/operadorComposion.png)
+![operadorcomposicion](/imagenesjava/operadorcomposion.png "operadorcomposicion")
 
 Tambien puede aplicarse para resta, multiplicación y división
 
@@ -22,9 +22,9 @@ trabajan con operadores booleanos
 |           |            |  
 |   --------|:----------:|
 |   AND     |    &&
-|   OR      |    "||"   
+|   OR      |  - || -  
 |   NOT     |    !    
-|   OR      |    "|"
+|   OR      |  - | -
 |   AND     |    &
 |   XOR     |    ^
 
