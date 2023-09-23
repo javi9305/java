@@ -1,6 +1,6 @@
 # Operador de composición de suma
 
-![operadorcomposicion](/imagenesjava/operadorcomposion.png "operadorcomposicion")
+![operadorcomposicion](/imagenesjava/operadorComposion.png "operadorcomposicion")
 
 Tambien puede aplicarse para resta, multiplicación y división
 
@@ -10,7 +10,7 @@ Los operadores relacionales nos permiten hacer una comparación entre dos valore
 
 Ejemplos
 
-        10<3 = false
+        10 < 3 = false
         4 == 4 = true
         En los char se compara con los valores Unicode (ya que son numéricos).
          a < b 
@@ -19,14 +19,18 @@ Ejemplos
 
 trabajan con operadores booleanos
 
-|           |            |  
-|   --------|:----------:|
-|   AND     |    &&
-|   OR      |  - || -  
-|   NOT     |    !    
-|   OR      |  - | -
-|   AND     |    &
-|   XOR     |    ^
+
+  AND         &&
+
+  OR          ||   
+
+  NOT          !   
+  
+  OR           | 
+
+  AND          &
+
+  XOR          ^
 
 Ejemplos: 
 
@@ -53,12 +57,14 @@ boolean y = false;
 
 **Tabla de verdad Or (||)**
 
-|             |              |      
-|   ----------|:------------:|
-|  x || x     |    true 
-|  x || y     |    true      
-|  y || x     |    true       
-|  y || y     |    false
+
+  x || x         true 
+
+  x || y         true  
+
+  y || x         true  
+
+  y || y         false
 
 Lo contrario de (X o Y).
 
