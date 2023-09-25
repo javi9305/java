@@ -1,10 +1,10 @@
 # Creando una clase
 
-![clase1](clase1.png "clase1")
+![clase1](/imagenesjava/clase1.png "clase1")
 
-![dependencia](dependencia.png "dependencia")
+![dependencia](/imagenesjava/dependencia.png "dependencia")
 
-![raiz](raiz1.png "raiz")
+![raiz](/imagenesjava/raiz1.png "raiz")
 
 
 **Java with maven**  maven es una tecnologia que nos va a servir para administrar mas facilmente las librerias
