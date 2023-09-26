@@ -34,3 +34,7 @@ Allí observarás que tú puedes crear una personalizada si así lo deseas. Dand
 # ¿Como podemos autocompletar una variable que ya fue definida?
 
 presionamos las teclas control + space.
+
+# ¿Como puedo encontrar donde fue definida una variable?
+
+control + clic
