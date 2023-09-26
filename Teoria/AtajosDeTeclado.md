@@ -30,3 +30,7 @@ Dentro de Netbeans, en el **menú Tools > Options > Editor**
 
 Dentro de esta opción tienes la pestaña "Code Templates". Ahí puedes ver todas esas abreviaciones que Netbeans tiene por defecto para Java (y para otros lenguajes también). 
 Allí observarás que tú puedes crear una personalizada si así lo deseas. Dando clic en el botón "new" a la derecha pones la abreviación que deseas  y abajo pones el código que va a autoacompletar automáticamente.
+
+# ¿Como podemos autocompletar una variable que ya fue definida?
+
+presionamos las teclas control + space.
