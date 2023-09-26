@@ -1,5 +1,6 @@
 # Inferencia de tipos java - var
-        
+**Se usa el var a partir de la versión 10 del jdk, ademas es opcional**
+
 `````` java
         var miVariableEntera2 = 15; //Asigno un valor entero a la variable la cual sabra que es un numero entero(Inferencia de tipos)
         System.out.println(miVariableEntera2); //Imprime el valor de la variable
