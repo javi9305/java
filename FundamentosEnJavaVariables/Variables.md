@@ -60,3 +60,28 @@ public class HolaMundo {
     }
 
 ``````
+
+# VARIABLES EN JAVA y Tipos de datos
+
+`````` java
+
+       
+        
+        int miVariableEntera = 10;  //Definimos una variable de tipo entera asignandole un valor.
+        System.out.println(miVariableEntera); //Imprime el valor de la variable. 
+        
+        
+        
+
+                      //TIPOS ENTEROS Y TIPO STRING EN JAVA
+        
+        miVariableEntera = 5;  //Modificamos el valor de la variable.
+        System.out.println(miVariableEntera); //Imprime el valor modificado de la variable.
+
+        String miVariableCadena = "saludos"; //Definimos una variable de tipo String asignadole una cadena.
+        System.out.println(miVariableCadena);//Imprime la cadena.
+
+        miVariableCadena = "Adios"; //Modificamos el valor de la variable
+        System.out.println(miVariableCadena); //Imprime el valor de la variable
+
+        ``````
