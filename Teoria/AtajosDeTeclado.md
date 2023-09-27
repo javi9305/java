@@ -38,3 +38,7 @@ presionamos las teclas control + space.
 # ¿Como puedo encontrar donde fue definida una variable?
 
 control + clic
+
+# ¿Como puedo imprimir sout.out.printl junto con la variable definida?
+
+solamente escribir la palabra soutv + tabulador
