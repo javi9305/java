@@ -46,6 +46,11 @@ char varCharDecimal = '33'; //ya no indicamos en ningun momento que este valor e
 System.out.println("varChar = " + varCharDecimal);
 
 
+//Se puede usar el var sin ningun problema con el simbolo
+
+
+var varCharSimbolo = '!'; 
+System.out.println("varCharSimbolo = " + varCharSimbolo);
 
 
 
