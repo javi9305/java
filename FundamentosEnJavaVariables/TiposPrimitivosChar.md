@@ -14,7 +14,7 @@ System.out.println("doubleVar = " + Character.BYTES);
 
 //Estos valores minimos y maximos corresponden a la tabla unicode. Pero el juego de caracteres unicode puede varia de sistema operativo en sistema operativo.
 System.out.println("doubleVar = " + Character.MIN_VALUE); //el valor minimo es null, el valor minimo puede varias dependiendo de la plataforma en la cual estemos trabajando.
-System.out.println("doubleVar = " + Character.MAX_vALUE); //el valor maximo es signo de ?
+System.out.println("doubleVar = " + Character.MAX_VALUE); //el valor maximo es signo de ?
 
 // un tipo char soporta un caracter, para ello se utiliza comilla simple.
 char varChar = 'a';
