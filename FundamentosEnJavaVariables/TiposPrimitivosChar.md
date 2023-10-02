@@ -7,7 +7,7 @@ public static void main (String [] args){
 
 
 
-
+//Informacion del tipo char
 
 System.out.println("bits tipo char:  = " + Character.SIZE);
 System.out.println("doubleVar = " + Character.BYTES);
