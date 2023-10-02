@@ -10,6 +10,7 @@ public static void main (String [] args){
 
 //Si asignamos el valor de 128  marcara el error de posible perdida de conversion al querer asignar un tipo entero que es la literal 128 a un tipo byte.
 //si la literal cumple con el minimo y el maximo entonces es posible asignarlo al tipo byte
+
 //Por default las literales en java son de tipo entero.
 
 byte byteVar = 127;
@@ -69,9 +70,11 @@ var numero = 128;
 var numero = 32768 //como lo podemos asignar entonces esta variable no es de tipo short, ya que pudimos superar el valor maximo de tipo short.
 
 //vamos asignar el valor maximo del tipo int.
-var numero = 2147483647; // el valor maximo de tipo int lo podemos asignar sin ningun problema
+var numeroInt = 2147483647; // el valor maximo de tipo int lo podemos asignar sin ningun problema
 
-var numero = 2147483648 // pero si pasamos el valor maximo, entonces quiere decir que esta variable es de tipo long ya que no pudimos superar el valor maximo del tipo entero. por lo tanto quiere decir que esta variable por default si le asignamos un valor de tipo numero , por default va a ser de tipo entero, sin embargo tambien la podriamos convertir a tipo long simplemente conviertiendo la literal a un tipo long (2147483648L) y por lo tanto detecta que necesitamos del lado izquierdo una variable que soporte esta literal  de tipo long, y nuestra variable en este momento se convierte  de tipo entero a un tipo long, ya que asi lo hemos establecido , necesitamos una variable tal que soporte un valor de tipo long. dependiendo de tipo que necesitemos declaramos la literal  y en automatico var va a definir el tipo que necesitamos para nuestra literal.
+var numeroLong = 2147483648 // pero si pasamos el valor maximo, entonces quiere decir que esta variable es de tipo long ya que no pudimos superar el valor maximo del tipo entero. por lo tanto quiere decir que esta variable por default si le asignamos un valor de tipo numero , por default va a ser de tipo entero, sin embargo tambien la podriamos convertir a tipo long simplemente conviertiendo la literal a un tipo long (2147483648L) y por lo tanto detecta que necesitamos del lado izquierdo una variable que soporte esta literal  de tipo long, y nuestra variable en este momento se convierte  de tipo entero a un tipo long, ya que asi lo hemos establecido , necesitamos una variable tal que soporte un valor de tipo long. dependiendo de tipo que necesitemos declaramos la literal  y en automatico var va a definir el tipo que necesitamos para nuestra literal.
+
+//en este caso no podemos utilizar ni short ni byte unicamente vamos a poder utilizar los tipos int y long cuando estamos trabajando con tipos enteros (por que las literales en java por default son de tipo entero.).
 
 
 }
