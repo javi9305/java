@@ -8,4 +8,23 @@
         var miVariableCadena2 = "Nueva Cadena"; //Asigno una cadena a una variable la cual sabra que es una cadena.
         System.out.println("miVariableCadena2 = " + miVariableCadena2);//Concadena un texto junto con la variable.
 
+
+
+       var numeroEntero = 10;
+       var numeroDouble = 10.0;
+       var numeroFloat = 10.0F;
+
+/*
+     Para ver paso a paso la ejecucion del programa.
+
+       se coloca el punto de ruptura sobre el numero de la linea de codigo,
+       click derecho ->Debug File ->Step Over(F8).
+    
+       En caso de que no se visualice el tipo de variables ir a Window->Debugging
+       
+     */
+
+
+
+
 ``````

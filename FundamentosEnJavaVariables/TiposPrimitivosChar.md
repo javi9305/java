@@ -53,6 +53,11 @@ var varCharSimbolo = '!';
 System.out.println("varCharSimbolo = " + varCharSimbolo);
 
 
+int variableEnteraSimbolo = '!'; //Imprimira el valor de 33.
+
+int letra = 'a'; //Imprimira el valor de 97.
+
+
 
 
 }

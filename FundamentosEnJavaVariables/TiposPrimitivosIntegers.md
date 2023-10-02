@@ -16,6 +16,27 @@ public static void main (String [] args){
 byte byteVar = 127;
 //Extraemos la información de tipo byte
 
+/*
+El tipo byte es el tipo de dato mas pequeno, sin embargo no porque utilizemos el tipo mas pequeño significa que
+vamos a ahorrar espacio ya que recordemos que los CPUs al dia de hoy utilizan arquitecturas de 32 y 64 bits.
+Por lo tanto el tipo mas comun que vamos a utilizar cuando programamos en java es el tipo entero debido 
+a que los CPUs son de 32 bits o 64 bits, asi que por lo tanto si queremos ahorrar la mayor cantidad
+de espacio normalmente utilizamos tipos enteros. el tipo byte puede ser utilizado sin embargo esto no garantiza
+que utilicemos solamente 8 bits, ya que posiblemente estos 8 bits se van a almacenar en los 32 bits que 
+compone una palabra de una arquitectura de 32 bits.
+
+
+
+
+
+
+
+
+
+*/
+
+
+
 System.out.println("byteVar = "+ byteVar);
 System.out.println("bits tipo byte " + Byte.SIZE);
 System.out.println("bytes tipo byte " + Byte.BYTES);
@@ -75,6 +96,8 @@ var numeroInt = 2147483647; // el valor maximo de tipo int lo podemos asignar si
 var numeroLong = 2147483648 // pero si pasamos el valor maximo, entonces quiere decir que esta variable es de tipo long ya que no pudimos superar el valor maximo del tipo entero. por lo tanto quiere decir que esta variable por default si le asignamos un valor de tipo numero , por default va a ser de tipo entero, sin embargo tambien la podriamos convertir a tipo long simplemente conviertiendo la literal a un tipo long (2147483648L) y por lo tanto detecta que necesitamos del lado izquierdo una variable que soporte esta literal  de tipo long, y nuestra variable en este momento se convierte  de tipo entero a un tipo long, ya que asi lo hemos establecido , necesitamos una variable tal que soporte un valor de tipo long. dependiendo de tipo que necesitemos declaramos la literal  y en automatico var va a definir el tipo que necesitamos para nuestra literal.
 
 //en este caso no podemos utilizar ni short ni byte unicamente vamos a poder utilizar los tipos int y long cuando estamos trabajando con tipos enteros (por que las literales en java por default son de tipo entero.).
+
+
 
 
 }

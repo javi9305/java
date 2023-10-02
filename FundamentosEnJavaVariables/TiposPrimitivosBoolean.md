@@ -12,7 +12,13 @@ public static void main (String [] args){
 System.out.println("True tipo boolean: " + Boolean.TRUE);
 System.out.println("False tipo boolean: " + Boolean.FALSE);
 
-boolean booleanVar = false;
+/*
+ se les conoce como valores de tipo bandera. una bandera basicamente  es como un semaforo , si esta en verde quiere decir que
+ podemos continuar, si esta en rojo quiere decir que debemos detenernos.
+
+
+*/
+boolean booleanVar = false; 
 
 if(booleanVar) //if(booleanVar == true) -> puede hacerse a si tambien, la otra es mas optima.
 System.out.println("El valor es verdadero");
@@ -30,6 +36,18 @@ var esAdulto = edad >= 18; //Regresa un valor boolean y como regresa un valor bo
 System.out.println("esAdulto =" + esAdulto);
 
 
+
+//con if
+var edad = 10;
+//var esAdulto = edad >= 18 -> esta linea no es tan necesaria porque puede ir dentro del if
+if(edad>=18)
+{
+    System.out.println("Eres mayor de edad");
+}
+else {
+    System.out.println("Eres menor de edad");
+     
+}
 }
 
 ``````
