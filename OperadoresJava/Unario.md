@@ -39,7 +39,7 @@ public static void main(String[] args) {
         //2.postincremento (simbolo ++ despues de la variable)
         var g = 5;
         var h = g++;//primero se asigna el valor de la variable g a la variable h y se va a incrementar esta variable g hasta la siguiente vez que utilizemos esta variable.
-                    
+                    //primero se utiliza el valor y despues se incrementa.
         System.out.println("g = " + g);//teniamos pendiente un incremento porque g valia 5 anteriormente.
         System.out.println("h = " + h);
         
