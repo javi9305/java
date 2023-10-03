@@ -3,7 +3,7 @@
 public static void main (String [] args){
 
 //Convertir un String a un tipo int
-var edad = Integer.parseInt("20"); //recibe un string. lo que hara esta linea va a convertir el string a entero, el resultado de esta expresion, de llamar esta funcion (parseInt) es el valor de 20 pero ya en entero.
+var edad = Integer.parseInt("20"); //recibe un string. lo que hara esta linea va a convertir el string a entero, el resultado de esta expresion, de llamar esta funcion (parseInt) es el valor de 20 pero ya en entero es decir regresa el valor 20.
 
 
 //Convertir de String a un tipo double
