@@ -1,4 +1,7 @@
 
+
+
+
 `````` java
 
 public static void main(String[] args) {
@@ -22,7 +25,8 @@ public static void main(String[] args) {
         
             numeroTexto = "Numero uno";        
         }
-        else if(numero == 2){
+        //sino si (numero == 2)
+        else if(numero == 2){ //se usa else if para ligar el if del principio, si solo se pone if, if se estaria usando de manera separada.
         
             numeroTexto = "Numero dos";
         }
@@ -44,4 +48,44 @@ public static void main(String[] args) {
         
     }
 
+
+/* Es importante no usar los if de manera aislada ya que si se usa de esta forma, nuestro programa trabaja demas.
+   ya que cada if que detecta tiene que revisar nuevamente la condicion.
+
+   aqui revisa si el numero fue igual a 1
+
+
+   si fue igual a 2
+
+
+   si fue igual a 3
+
+
+   si fue igual a 4
+
+   en toda las ocasiones revisa esta condicion.
+
+
+
+
+   en cambio si utilizamos else if entonces lo que sucede que una vez que encuentre la condicion ya no evalua ninguna de las otras condiciones, solamente
+   esta buscando una condicion y una vez que la encuentra todo lo demas lo va a omitir. por ello es importante que liguemos nuestros casos con if, else if.
+   y si agregamos otro if es porque ya es otra condicion o es otro codigo que queremos evaluar.
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     ``````
