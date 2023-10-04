@@ -32,4 +32,4 @@ tienen esta caracteristica.
 
 
 
-![archivo](sentenciaControl.pdf "archivo")
+![archivo](/Teoria/sentenciaControl.pdf "archivo")
