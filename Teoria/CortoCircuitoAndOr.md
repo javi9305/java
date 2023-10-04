@@ -29,3 +29,7 @@ y por lo tanto ya no se tendra que evaluar el lado derecho.
 
 por eso se conocen como operadores de corto circuito, como el operador and y el operador or
 tienen esta caracteristica.
+
+
+
+![archivo](sentenciaControl.pdf "archivo")
