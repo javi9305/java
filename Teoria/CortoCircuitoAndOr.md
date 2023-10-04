@@ -31,5 +31,3 @@ por eso se conocen como operadores de corto circuito, como el operador and y el 
 tienen esta caracteristica.
 
 
-
-![archivo](/Teoria/sentenciaControl.pdf "archivo")
