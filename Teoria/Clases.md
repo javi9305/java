@@ -1,6 +1,6 @@
 # ¿Cuales son las caracteristicas de una clase?
 
-* Una clases es una plantilla.
+* Una clase es una plantilla.
 * Posee un nombre.
 * Posee atributos y metodos.
 * Un objeto es una instancia de una clase.
@@ -17,7 +17,7 @@ una clase **genera un nuevo tipo de datos** en java. Una vez definido este tipo 
 
 # En terminos generales, ¿Que es una clase?
 
-Es una plantilla para poder crear objetos es decir podremod generar objetos (instancias) para que puedan
+Es una plantilla para poder crear objetos es decir podremos generar objetos (instancias) para que puedan
 ser finalmente utilizados los nuevos tipos de datos de un programa.
 
 # ¿Con que otro nombre se le conoce a una instancia de una clase?
@@ -40,7 +40,7 @@ crear objetos de dichas plantillas.
 # ¿Qué es lo importante que se debe recordar de una clase?
 
 Es importante recordar que al definir una clase, solo **estamos definiendo una plantilla con la que vamos a trabajar,** pero para poder usar esa plantilla
-necesitamos **crear objetos a partir de esa plantilla.** Definir la clase **no crear un objeto en automático, tenemos que crearlos.**
+necesitamos **crear objetos a partir de esa plantilla.** Definir la clase **no crea un objeto en automático, tenemos que crearlos.**
 
 
 Por ejemplo:
@@ -60,17 +60,17 @@ son los atributos de un perro, la clase deberia llamarse "Perro".
 
 # Representación de una clase en codigo y en forma grafica.
 
-Solamente agregamos 2 atributos o caracteristicas de la clase persona que seran nombre y apellido, aun no se estan agregando los valores, unicamente estamos
+* Solamente agregamos 2 atributos o caracteristicas llamados nombre y apellido de la **clase persona**, aun no se estan agregando los valores, unicamente estamos
 definiendo los atributos.
 
 Como podemos ver, no son variables normales sino se conocen como **atributos de la clase** ya que estas variables son las características
-de nuestra clase, así que no es simplemente una variable individual sino corresponde al atributo de nuestra clase Persona.
+de nuestra clase, así que no es simplemente una variable individual sino corresponde al atributo de nuestra **clase Persona**.
 
-Ahora definimos el método que despliega los valores que pudiera contener estos atributos de la clase donde lo usarán los objetos. 
+* Ahora definimos el método que despliega los valores que pudiera contener estos atributos de la clase donde lo usarán los objetos. 
 
-en este caso vamos a definir un método público posteriormente indicamos que es de tipo void que no va a regresar ningún tipo de información y el método se va a llamar desplegarNombre, entonces abrimos y cerramos paréntesis y no vamos a recibir ningún tipo de información dentro de este método. Ahora abrimos llaves y el contenido de este método simplemente va a mandar a imprimir el valor de nuestros atributos **nombre y apellido**  y luego cerramos llaves y este es el cuerpo de nuestro método.
+en este caso vamos a definir un **método público** posteriormente indicamos que es de **tipo void** que no va a regresar ningún tipo de información y el método se va a llamar **desplegarNombre**, entonces abrimos y cerramos paréntesis ya que no vamos a recibir ningún tipo de información dentro de los parentesis. Ahora abrimos llaves para escribir lo que se requiere imprimir y el contenido de este método simplemente va a mandar a imprimir el valor de nuestros atributos  **nombre y apellido**  y luego cerramos llaves y este es el cuerpo de nuestro método.
 
-Así que hasta el momento únicamente hemos definido la plantilla de nuestra clase.
+**Así que hasta el momento únicamente hemos definido la plantilla de nuestra clase.**
 
 
 
@@ -81,6 +81,7 @@ Así que hasta el momento únicamente hemos definido la plantilla de nuestra cla
 
 
 
+Si lo vemos de forma grafica.
 
 ![representacionpersona](/imagenesjava/representacionpersona.png "representacionpersona")
 

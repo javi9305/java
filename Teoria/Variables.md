@@ -9,13 +9,11 @@ Necesitaremos crear variables que nos permita almacenar información.
 
 
 Es un espacio de memoria que nos ayuda a almacenar un valor y va a tener un **identificador**. Sin embargo este valor puede **cambiar o modificarse** a través del tiempo.
-
+Ademas nos permite hacer programas dinámicos, por lo que en la mayoria de los casos los valores cambiarán durante la interacción
+con el usuario y el programa.
 
 
 # ¿Las variables almacenan la información de un programa permanentemente?
-
-
-
 
 No. lo hacen de **manera temporal**.
 Los datos que tengamos **pueden ir cambiando a lo largo de la ejecución** del programa es decir **esta información va a variar según lo que estemos recibiendo por parte del usuario o del tipo de información que estemos procesando.**
@@ -211,4 +209,34 @@ Por ejemplo:
 
 `Var miVariable = 10;`
 
+# ¿Una cadena es un tipo de dato primitivo?
+No. en java el manejo de cadenas es de tipo **Object**
+
+# ¿Cuales son las caracteristicas de una cadena o un string?
+
+* Tiene un tratamiento especial.
+* No es un tipo de dato primitivo.
+* Contexto String.
+* No se necesita instanciar.
+
+# ¿Por que no es necesario el uso de new en una cadena, si es de tipo Object?
+Esto se estipulo asi debido al uso tan frecuente de este tipo al momento de estar programando, es que se decidio **sinplificar** el proceso de creación y asignación de valores en este tipo String en particular.
+
+# ¿Como se declara un tipo String?
+
+* Utilizamos la palabra String.
+* Definimos su nombre (identificador).
+* Finalmente asignamos su valor.
+
+Todo esto sin la necesidad de la palabra new, Asi podemos asignar directamente el valor de una cadena, simplemente utilizando comillas dobles para envolver el valor.
+
+# ¿Cual es la excepción que tienen las cadenas en java?
+
+En java a diferencia de otros lenguajes no se permite la sobrecarga de operadores, lo que significa que no podemos alterar la función de los operadores para hacer lo que nosotros deseemos , sin embargo existe una excepción a esta regla cuando manejamos tipos cadenas, cuando usamos el **operador +** y se detecta un tipo String en la operación, se dice
+que tenemos el **contexto cadena** , por lo tanto en vez de sumar valores, lo que hace java **es concatenar** los valores que se encuentran en las operaciones.
+
+`````` java
+String saludo = "Hola mundo";
+
+`````` 
 
