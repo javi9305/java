@@ -30,6 +30,8 @@
    }
 ``````
 
+Asi se representa persona1 = new Persona()
+
 ![dibujoobjeto](/imagenesjava/dibujoobjeto.png "dibujoobjeto")
 
 
@@ -59,7 +61,6 @@ en el objeto que se ha creado.
  */
 
 ``````
-
 
 ![dibujoobjeto2](/imagenesjava/dibujoobjeto2.png "dibujoobjeto2")
 
