@@ -54,7 +54,7 @@ Asi se representa persona1 = new Persona(), **ver imagen 1.1**
 
 ``````
 
-lo que hizo la variable persona1 es que accedio a nuestro objeto y los modificó
+lo que hizo la variable persona1 es que accedio a nuestro objeto y los modificó (los valores de los atributos persona1)
 por ello es que cuando se mando a llamar el metodo desplegarNombres()
 lo que imprime son los atributos del objeto y no los valores de la clase.
 Basicamente lo que se hace es que la plantilla de Persona crea un
