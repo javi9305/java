@@ -30,11 +30,11 @@
    }
 ``````
 
-Asi se representa persona1 = new Persona(), **ver imagen 1.1**
+Asi se representa persona1 = new Persona(), **(Ver imagen 1.1.)**
 
 ![dibujoobjeto](/imagenesjava/dibujoobjeto.png "dibujoobjeto")
 
-**imagen 1.1**
+**Imagen 1.1**
 
 
 `````` java
@@ -61,7 +61,7 @@ Basicamente lo que se hace es que la plantilla de Persona crea un
 objeto a su semejanza es decir con los atributos y metodos que hemos definido
 en nuestra plantilla pero los valores no se estan modificando en nuestra
 clase, aqui unicamente tenemos la plantilla sino los valores se estan modificando
-en el objeto que se ha creado. **Ver imagen 1.2**
+en el objeto que se ha creado. **(Ver imagen 1.2)**
 
 
 ![dibujoobjeto2](/imagenesjava/dibujoobjeto2.png "dibujoobjeto2")
@@ -91,15 +91,15 @@ en el objeto que se ha creado. **Ver imagen 1.2**
 
 Si creamos mas objetos entonces cada uno de los objetos tiene acceso a sus propios atributos,
 no porque modifiquemos los valores del objeto que se ha creado persona1 va a cambiar en persona2,
-cada uno de los objetos va a tener sus propios valores. **ver imagen 1.3**
+cada uno de los objetos va a tener sus propios valores. **(Ver imagen 1.3)**
 
 ![objetodibujo3](/imagenesjava/objetodibujo3.png "objetodibujo3")
 
 
-**imagen 1.3**
+**Imagen 1.3**
 
 el primer objeto tiene los valores de juan perez y el segundo objeto tiene el valor de karla lara, y observamos que la plantilla no se altera, esta contiene la base o la estructura para crear estos objetos, pero la plantilla no se modifica, lo que se modifica son los valores de los objetos que se han creado.
-**ver imagen 1.4**
+**(Ver imagen 1.4)**
 
 ![dibujoobjeto4](/imagenesjava/dibujoobjeto4.png "dibujoobjeto4")
 
@@ -115,7 +115,7 @@ el primer objeto tiene los valores de juan perez y el segundo objeto tiene el va
 
  las variables almacenan la direccion de memoria de los objetos, esta caracteristica en otros lenguajes se le conoce como apuntadores.
 
-cada vez que creamos un objeto, se le asigna una referencia en memoria y son las variables que almacenan estas referencia, por lo tanto estas variables apuntan al objeto. **ver imagen 1.5**
+cada vez que creamos un objeto, se le asigna una referencia en memoria y son las variables que almacenan estas referencia, por lo tanto estas variables apuntan al objeto. **(Ver imagen 1.5)**
 
 
 ![objetodibujo5](/imagenesjava/objetodibujo5.png "objetodibujo5")
