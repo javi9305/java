@@ -118,7 +118,7 @@ el primer objeto tiene los valores de juan perez y el segundo objeto tiene el va
 cada vez que creamos un objeto, se le asigna una referencia en memoria y son las variables que almacenan estas referencia, por lo tanto estas variables apuntan al objeto. **ver imagen 1.5**
 
 
-![dibujoobjeto5](/imagenesjava/dibujoobjeto5.png "dibujoobjeto5")
+![objetodibujo5](/imagenesjava/objetodibujo5.png "objetodibujo5")
 
 
 **Imagen 1.5**
