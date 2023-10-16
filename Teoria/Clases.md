@@ -58,6 +58,19 @@ Atributos y métodos.
 lo ideal es que los nombres de las clases, métodos, atributos, etc., sean lo más natural posible. De manera que, si lo que maneja la clase
 son los atributos de un perro, la clase deberia llamarse "Perro".
 
+# ¿Una clase podria llamarse usuario?
+
+la clase puede tener cualquier nombre siempre y cuando respetes las reglas de nombres de variables en Java (numeros o letras y signos de _ al inicio si lo deseas)
+
+Asi que una clase sin problemas puede llamarse Usuario. Recuerda que la primera letra de cada palabra en una clase debe ir en mayuscula.
+
+# ¿Una clase siempre debe bautizarse con un nombre en singular?
+
+Lo normal es que se bauticen en singular ya que una clase es una plantilla de la cual **generaras objetos**, entonces, cuando creas una instancia de la clase hace referencia a un solo objeto, por ello es un Usuario y no varios Usuarios. Asi que las clases es común que sean escritas en singular.
+
+Veras otras estructuras de datos como arreglos o colecciones que hacen referencia a muchos elementos, por lo que si se llamarán en plural, como usuarios, pero eso hace referencia a la variable que almacena varios elementos, el tipo de java sigue siendo singular.
+
+
 # Representación de una clase en codigo y en forma grafica.
 
 * Solamente agregamos 2 atributos o caracteristicas llamados nombre y apellido de la **clase persona**, aun no se estan agregando los valores, unicamente estamos
