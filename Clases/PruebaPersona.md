@@ -93,7 +93,7 @@ Si creamos mas objetos entonces cada uno de los objetos tiene acceso a sus propi
 no porque modifiquemos los valores del objeto que se ha creado persona1 va a cambiar en persona2,
 cada uno de los objetos va a tener sus propios valores. **ver imagen 1.3**
 
-![dibujoobjeto3](/imagenesjava/dibujoobjeto3.png "dibujoobjeto3")
+![objetodibujo3](/imagenesjava/objetodibujo3.png "objetodibujo3")
 
 
 **imagen 1.3**
