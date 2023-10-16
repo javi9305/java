@@ -90,7 +90,7 @@ en el objeto que se ha creado. **Ver imagen 1.2**
 
 
 Si creamos mas objetos entonces cada uno de los objetos tiene acceso a sus propios atributos,
-asi que los valores no porque modifiquemos los valores del objeto que se ha creado persona1,
+no porque modifiquemos los valores del objeto que se ha creado persona1 va a cambiar en persona2,
 cada uno de los objetos va a tener sus propios valores. **ver imagen 1.3**
 
 ![dibujoobjeto3](/imagenesjava/dibujoobjeto3.png "dibujoobjeto3")
