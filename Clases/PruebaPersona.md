@@ -30,9 +30,11 @@
    }
 ``````
 
-Asi se representa persona1 = new Persona()
+Asi se representa persona1 = new Persona(), **ver imagen 1.1**
 
 ![dibujoobjeto](/imagenesjava/dibujoobjeto.png "dibujoobjeto")
+
+**imagen 1.1**
 
 
 `````` java
@@ -49,7 +51,9 @@ Asi se representa persona1 = new Persona()
         persona1.desplegarNombres();
 
 
-/*
+
+``````
+
 lo que hizo la variable persona1 es que accedio a nuestro objeto y los modificó
 por ello es que cuando se mando a llamar el metodo desplegarNombres()
 lo que imprime son los atributos del objeto y no los valores de la clase.
@@ -57,17 +61,15 @@ Basicamente lo que se hace es que la plantilla de Persona crea un
 objeto a su semejanza es decir con los atributos y metodos que hemos definido
 en nuestra plantilla pero los valores no se estan modificando en nuestra
 clase, aqui unicamente tenemos la plantilla sino los valores se estan modificando
-en el objeto que se ha creado.
- */
+en el objeto que se ha creado. **Ver imagen 1.2**
 
-``````
 
 ![dibujoobjeto2](/imagenesjava/dibujoobjeto2.png "dibujoobjeto2")
 
 
+**Imagen 1.2**
 
-
-Cada que veamos la palabra new es porque se esta creando un nuevo objeto en memoria.
+**Nota:** Cada que veamos la palabra new es porque se esta creando un nuevo objeto en memoria.
 
 `````` java
 //Creacion de un segundo objeto de tipo Persona
@@ -89,16 +91,20 @@ Cada que veamos la palabra new es porque se esta creando un nuevo objeto en memo
 
 Si creamos mas objetos entonces cada uno de los objetos tiene acceso a sus propios atributos,
 asi que los valores no porque modifiquemos los valores del objeto que se ha creado persona1,
-cada uno de los objetos va a tener sus propios valores. ver imagen 1.2
+cada uno de los objetos va a tener sus propios valores. **ver imagen 1.3**
 
 ![dibujoobjeto3](/imagenesjava/dibujoobjeto3.png "dibujoobjeto3")
-imagen 1.2
+
+
+**imagen 1.3**
 
 el primer objeto tiene los valores de juan perez y el segundo objeto tiene el valor de karla lara, y observamos que la plantilla no se altera, esta contiene la base o la estructura para crear estos objetos, pero la plantilla no se modifica, lo que se modifica son los valores de los objetos que se han creado.
-ver imagen 1.3
+**ver imagen 1.4**
 
 ![dibujoobjeto4](/imagenesjava/dibujoobjeto4.png "dibujoobjeto4")
-imagen 1.3
+
+
+**imagen 1.4**
 
 
 
@@ -109,6 +115,10 @@ imagen 1.3
 
  las variables almacenan la direccion de memoria de los objetos, esta caracteristica en otros lenguajes se le conoce como apuntadores.
 
-cada vez que creamos un objeto, se le asigna una referencia en memoria y son las variables que almacenan estas referencia, por lo tanto estas variables apuntan al objeto. ver imagen 1.4
+cada vez que creamos un objeto, se le asigna una referencia en memoria y son las variables que almacenan estas referencia, por lo tanto estas variables apuntan al objeto. **ver imagen 1.5**
+
 
 ![dibujoobjeto5](/imagenesjava/dibujoobjeto5.png "dibujoobjeto5")
+
+
+**Imagen 1.5**
