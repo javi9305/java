@@ -65,10 +65,6 @@ Entrando en modo debug
 
 Damos en step into (f7)
 
-![this2](/imagenesjava/this2.png "this2")
-
-
-
 Entramos al detalle del objeto aritmetica
 
 Podemos observar que en automatico el compilador a creado esta variable llamada this, a travez de la 
@@ -82,6 +78,8 @@ una vez que salimos de la ejecucion de esta clase entonces el operador this camb
 el operador this es de tipo aritmetica ya que esta apuntando a un objeto de tipo aritmetica.
 
 podemos observar que el operador this puede acceder a los atributos de la clase.
+
+![this2](/imagenesjava/this2.png "this2")
 
 
 
