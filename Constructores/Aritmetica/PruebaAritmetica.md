@@ -11,7 +11,7 @@ para que se pueda crear un objeto/instancia de nuestra clase aritmetica
 ahora nosotros somos responsables de agregarlo a nuestra clase es decir de definirlo de manera explicita.
 
 
-- la diferencia entre un metodo y un constructor, es que no regresa ningun tipo de dato(ni un void, ni un int, float etc).
+- La diferencia entre un metodo y un constructor, es que no regresa ningun tipo de dato(ni un void, ni un int, float etc).
 
 
 - Esto no seria posible: aritmetica.Aritmetica();
