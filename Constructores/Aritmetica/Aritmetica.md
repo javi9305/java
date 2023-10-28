@@ -12,6 +12,8 @@ public class Aritmetica {
     
     
     //Metodo sumar que recibe 2 argumentos y regresa el resultado.
+    /*los argumentos de un metodo pasan a hacer variables locales donde se puede utilizar
+    dentro de este metodo*/
     public int sumar(int a, int b) {
 
         return a + b;
