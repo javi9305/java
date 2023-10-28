@@ -1,11 +1,12 @@
   
     
-      Si no indicamos otra cosa, el constructor vacio lo que va a hacer
-      es inicializar los valores de nuestras variables a y b, le asignara un valor
-      por default dependiendo del tipo de dato por ejemplo si es tipo entero
-      su valor por default es 0, si es un tipo objetc su valor por default es null.
+Si no indicamos otra cosa, el constructor vacio lo que va a hacer
+es inicializar los valores de nuestras variables a y b, le asignara un valor
+por default dependiendo del tipo de dato por ejemplo si es tipo entero
+su valor por default es 0, si es un tipo objetc su valor por default es null.
     
     
+
 
     `````` java
    //Atributos de la clase
