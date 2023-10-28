@@ -59,10 +59,13 @@ public class Aritmetica {
 }
 
 ``````
+Entrando en modo debug
 
 ![this1](/imagenesjava/this1.png "this1")
 
-![this2](/imagenesjava/this1.png "this2")
+Damos en step into (f7)
+
+![this2](/imagenesjava/this2.png "this2")
 
 
 
@@ -84,4 +87,4 @@ podemos observar que el operador this puede acceder a los atributos de la clase.
 
 le asignamos los argumentos a y b a los atributos de la clase this.a y this.b
 
-![this3](/imagenesjava/this1.png "this3")
+![this3](/imagenesjava/this3.png "this3")
