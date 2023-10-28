@@ -8,7 +8,7 @@ su valor por default es 0, si es un tipo objetc su valor por default es null.
     
 
 
-    `````` java
+`````` java
    //Atributos de la clase
     int a;
     int b;
@@ -39,4 +39,4 @@ su valor por default es 0, si es un tipo objetc su valor por default es null.
 
     }
 
-    ``````
+``````
