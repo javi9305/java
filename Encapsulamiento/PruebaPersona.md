@@ -52,3 +52,10 @@ Explicacion de codigo
 
 Se crea un objeto de tipo Persona pero lo que estamos haciendo internamente es que el atributo de nombre ya es de tipo privado, así que ya no lo podemos acceder desde otras clases directamente sino ahora lo que tenemos que hacer es acceder a través de método get(para obtener el valor del atributo) y set(modificar el valor del atributo) para el atributo respectivo. Ya no podemos acceder directamente al atributo, sino que ahora va a hacer a través de los métodos get o set.
 En este caso como estamos en la clase PruebaPersona, entonces la variable persona apunta al objeto persona, pero ya no puede acceder directamente al atributo de nombre, sino que ahora tiene que utilizar el método getNombre para acceder indirectamente al atributo de nombre.
+
+
+
+Usando el metodo toString para mejorar el codigo
+
+
+Si nos damos cuenta cada vez que queremos imprimir los valores del objeto persona, estamos imprimiendo demasiadas lineas en consola, asi que con cada cambio que le hacemos al objeto, estamos mandando a llamar 3 veces la impresion la salida(a esto nos referimos con 3 veces: persona.getNombre, persona.getSueldo,persona.isEliminado).
