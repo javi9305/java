@@ -58,4 +58,34 @@ En este caso como estamos en la clase PruebaPersona, entonces la variable person
 Usando el metodo toString para mejorar el codigo
 
 
-Si nos damos cuenta cada vez que queremos imprimir los valores del objeto persona, estamos imprimiendo demasiadas lineas en consola, asi que con cada cambio que le hacemos al objeto, estamos mandando a llamar 3 veces la impresion la salida(a esto nos referimos con 3 veces: persona.getNombre, persona.getSueldo,persona.isEliminado).
+Si nos damos cuenta cada vez que queremos imprimir los valores del objeto persona, estamos imprimiendo demasiadas lineas en consola, asi que con cada cambio que le hacemos al objeto, estamos mandando a llamar 3 veces la impresion la salida(a esto nos referimos con 3 veces: persona.getNombre, persona.getSueldo,persona.isEliminado).Para mejorar esto podemos hacer uso del metodo toString.
+
+
+
+
+``````java
+
+public class PruebaPersona {
+    public static void main(String[] args) {
+        Persona persona = new Persona("Juan", 5000, false);
+    
+      
+        /*
+        Debido a que el metodo toString es muy utilizado en java el metodo 
+         println en automatico al poner una referencia de un objeto en java
+         manda a llamar en automatico al metodo toString(), podemos agregar
+        el metodo o no sin embargo el resultado es el mismo.
+        
+        System.out.println("persona:" + persona.toString());
+        */
+         System.out.println("persona:" + persona);
+        
+        persona.setNombre("Carlos");
+        persona.setSueldo(3000);
+        persona.setEliminado(true);
+        
+        System.out.println("persona:" + persona);
+    }
+}
+
+``````
