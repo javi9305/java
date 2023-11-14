@@ -24,11 +24,11 @@ Podemos observar que el orden de nuestras clases (la jerarquía de clases) tenem
 ![sobrecarga1](/imagenesjava/sobrecarga1.png "sobrecarga1")
 
 
-Entonces cuando creamos el objeto de tipo Empleado, lo que tiene que hacer en primer lugar es mandar a llamar los constructores, en este caso de la clase Persona y posteriormente de la clase Object como se en la imagen.
+Entonces cuando creamos el objeto de tipo Empleado llamado empleado1, lo que tiene que hacer en primer lugar es mandar a llamar los constructores, en este caso de la clase Persona y posteriormente al de la clase Object como se ve en la imagen.
 
-![sobrecarga2](/imagenesjava/sobrecarga1.png "sobrecarga2")
+![sobrecarga2](/imagenesjava/sobrecarga2.png "sobrecarga2")
 
 
 Y para terminar de crear el objeto, ahora empieza el trabajo hacia abajo, vamos a empezar a regresar de la clase Object a Persona, de la clase Persona a la clase Empleado y finalmente regresa la referencia a la variable empleado1. Y este es el orden de creación del objeto, incluyendo el orden de llamada de los constructores.
 
-![sobrecarga3](/imagenesjava/sobrecarga1.png "sobrecarga3")
+![sobrecarga3](/imagenesjava/sobrecarga3.png "sobrecarga3")
