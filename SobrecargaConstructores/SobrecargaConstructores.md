@@ -15,7 +15,7 @@ public class SobrecargaConstructores {
 ``````
 
 
-explicacion del codigo
+explicacion de la creacion del objeto en una herencia.
 
 
 Podemos observar que el orden de nuestras clases (la jerarquía de clases) tenemos la clase Object, como la clase padre de todas las clases, posteriormente tenemos la clase Persona que hereda de la clase Object y tenemos nuestra clase Empleado que hereda de la clase Persona.
