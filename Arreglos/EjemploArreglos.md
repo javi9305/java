@@ -36,6 +36,15 @@ public class EjemploArreglos {
           System.out.println("Arreglo personas indice 2: " + personas[2]);
           System.out.println("Arreglo personas indice 3: " + personas[3]);
           
+
+  //Arreglo utilizando notacion simplificada
+          String nombres[] = {"juan","juanita","pedro"};
+          //imprimir los elementos de un arreglo(length: propiedad del arreglo) 
+          for (int i = 0; i < nombres.length; i++) {
+              System.out.println("Arreglo String indice: " + i + ":" + nombres[i] );
+        }
+
+
     }
 }
 
