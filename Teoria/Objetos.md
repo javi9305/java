@@ -1,10 +1,14 @@
 # ¿Que son los objetos?
 
+
 son las instancias que estamos creando de nuestras clases. Cada objeto que se crea es distinto, por eso se le conoce como instancia.
+
 
 otra definicion:
 
+
 un objeto es la instancia de una clase, es decir que a partir de nuestra plantila, es posible crear objetos en concreto con los cuales podremos trabajar, es decir, cambiar sus valores y llamar sus métodos.
+
 
 hay casos en los que podremos trabajar **directamente** con la clase, a esto se le conoce como **Contexto estatico**, sin embargo para poder utilizar la clase trabajaremos
 con el **contexto dinamico** es decir, necesitamos crear una instancia de una clase para poder trabajar con ellas.  
@@ -13,7 +17,24 @@ con el **contexto dinamico** es decir, necesitamos crear una instancia de una cl
 
 
 
+
+
+
+
             nota: Objetos e instancias de la clase son lo mismo.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # ¿Para que se utiliza una clase o plantilla?
