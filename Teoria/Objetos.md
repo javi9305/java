@@ -7,7 +7,11 @@ otra definicion:
 un objeto es la instancia de una clase, es decir que a partir de nuestra plantila, es posible crear objetos en concreto con los cuales podremos trabajar, es decir, cambiar sus valores y llamar sus métodos.
 
 hay casos en los que podremos trabajar **directamente** con la clase, a esto se le conoce como **Contexto estatico**, sin embargo para poder utilizar la clase trabajaremos
-con el **contexto dinamico** es decir, necesitamos crear una instancia de una clase para poder trabajar con ellas.
+con el **contexto dinamico** es decir, necesitamos crear una instancia de una clase para poder trabajar con ellas.  
+  
+    
+      
+      
 
             nota: Objetos e instancias de la clase son lo mismo.
 
