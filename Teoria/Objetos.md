@@ -8,47 +8,9 @@ un objeto es la instancia de una clase, es decir que a partir de nuestra plantil
 
 hay casos en los que podremos trabajar **directamente** con la clase, a esto se le conoce como **Contexto estatico**, sin embargo para poder utilizar la clase trabajaremos
 con el **contexto dinamico** es decir, necesitamos crear una instancia de una clase para poder trabajar con ellas.  
-  
-/n 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
 
 
             nota: Objetos e instancias de la clase son lo mismo.
