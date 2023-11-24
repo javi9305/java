@@ -1,4 +1,4 @@
-<h1>Clase Scanner para leer datos en consola />
+<h1>Clase Scanner para leer datos en consola </>
 
 Para utilizar la clase Scanner en una clase debemos hacer lo siguiente:
 
