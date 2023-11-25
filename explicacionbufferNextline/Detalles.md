@@ -18,6 +18,54 @@ Scanner consola = new Scanner(System.in);
 ![metodosdelaclasescanner](/imagenesjava/metodosdelaclasescanner.png "metodosdelaclasescanner")
 
 
+4. Ahora vamos a mostrar como se puede utilizar el metodo nextInt().
+
+int numero;
+System.out.println("Introduce un número entero: ")
+numero = consola.nextInt(); //Asigna a la variable numero, el numero entero introducido por teclado.
+
+
+dependiendo del tipo de dato,se usa algun metodo por ejemplo si necesitamos ingresar por teclado
+un dato de tipo String usamos el metodo nextLine().
+
+
+Asi se veria un programa con lectura de datos con la clase Scanner
+
+
+import java.util.Scanner
+
+public class PruebaScanner {
+    
+    public static void main(String[] args){
+    
+        Scanner consola = new Scanner(System.in) //creamos un objeto Scanner.
+ 
+        //Declaramos las variables a ocupar.
+        int numero;
+        String nombre;
+
+        System.out.println("Introduce un nombre");
+        nombre = consola.nextLine();
+
+        System.out.println("Introduce un numero")
+        numero = consola.nextInt();
+
+
+        System.out.println("El nombre es: " + nombre)
+        System.out.println("El numero es: " + numero)
+    }
+
+
+
+}
+
+
+
+Si el valor introducido por teclado no es del tipo esperado, se producira un error llamado: inputMismatchException.
+
+
+
+Funcionamiento interno de la clase Scanner
 
 
 
