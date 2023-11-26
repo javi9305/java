@@ -72,6 +72,6 @@ Funcionamiento interno de la clase Scanner
 
 
 
-Para mas información del scanner visitar la pagina:
+Para mas información de la clase scanner y como vaciar el buffer,visitar la pagina:
 
 [puntocomnoesunlenguaje.blogspot.com/2012/08/java-scanner.html](https://puntocomnoesunlenguaje.blogspot.com/2012/08/java-scanner.html)
