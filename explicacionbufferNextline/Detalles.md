@@ -68,7 +68,10 @@ Si el valor introducido por teclado no es del tipo esperado, se producira un err
 Funcionamiento interno de la clase Scanner
 
 
+![scannerinterno](/imagenesjava/scannerinterno.png "scannerinterno")
 
 
 
+Para mas información del scanner visitar la pagina:
 
+[puntocomnoesunlenguaje.blogspot.com/2012/08/java-scanner.html](https://puntocomnoesunlenguaje.blogspot.com/2012/08/java-scanner.html)
