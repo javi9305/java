@@ -19,4 +19,4 @@ Es una relación entre dos clases que requieren relacionarse (como una orden y u
 
 # Relacion bidimensional
 
-![Relaciones02](/imagenesjava/Relaciones02.png "Relaciones02")
+![relaciones02](/imagenesjava/relaciones02.png "relaciones02")
