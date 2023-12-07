@@ -10,13 +10,4 @@ En los lenguajes orientados a objetos como JAVA es fundamental comprender como l
 - Composición
 - Herencia
 
-# Asociación
 
-Es una relación entre dos clases que requieren relacionarse (como una orden y un cliente), mediante UML y el diagrama de clases se representa mediante una línea y en algunos casos incluye una flecha siguiendo la estructura de una oración. Esta flecha apunta al objeto y el otro extremo representa al sujeto.
-
-
-![Relaciones01](/imagenesjava/Relaciones01.png "Relaciones01")
-
-# Relacion bidimensional
-
-![relaciones02](/imagenesjava/relaciones02.png "relaciones02")
