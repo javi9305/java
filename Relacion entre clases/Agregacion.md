@@ -1,8 +1,11 @@
-## Agregación
+## Agregación  
 
-Imaginemos un celular y un chip, cuando un celular se crea, no tiene ningun chip, pero con el tiempo le podemos agregar 1 o hasta 2 chips, en cualquier caso el celular seguira funcionando,esto es porque el chip no es parte del celular, solamente esta dentro del celular.
 
-es decir la clase celular y la clase chip pueden funcionar uno independientemente del otro.
+
+Imaginemos una clase celular y una clase chip, cuando un celular se crea, no tiene ningun chip, pero con el tiempo le podemos agregar 1 o hasta 2 chips, en cualquier caso el celular seguira funcionando,esto es porque el chip no es parte del celular, solamente esta dentro del celular, es decir la clase celular y la clase chip pueden funcionar uno independientemente del otro.
+
+![celular](/imagenesjava/celular1)
+![celular](/imagenesjava/celular2)
 
 En esta relacion podemos identificar 2 roles la clase contenedor y la clase elemento.
 
