@@ -56,5 +56,6 @@ Cuando hablamos de agregacion usualmente tendriamos un metodo para agregar una c
 
 ![tablas](/imagenesjava/tablas.png)
 
+### Referencia
 
-[Video de explicacion](https://www.youtube.com/watch?v=U9-iM-gA7-E/ "Agregacion y Composicion en POO")
+[Video de explicacion de Agregacion y Composicion en POO](https://www.youtube.com/watch?v=U9-iM-gA7-E)
