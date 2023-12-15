@@ -8,6 +8,7 @@ public static void main(String[] args) {
             if (contador % 2 != 0) {
                 // detener únicamente la iteración actual y saltar a la siguiente
                continue;//ir a la siguiente iteracion del ciclo for.
+                        //salta una iteracion de un ciclo.
                 
             }
              System.out.println("contador = " + contador);
