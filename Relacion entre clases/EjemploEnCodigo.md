@@ -57,4 +57,4 @@ Cuando hablamos de agregacion usualmente tendriamos un metodo para agregar una c
 ![tablas](/imagenesjava/tablas.png)
 
 
-![referencia](https://www.youtube.com/watch?v=U9-iM-gA7-E)
+[referencia](https://www.youtube.com/watch?v=U9-iM-gA7-E)
