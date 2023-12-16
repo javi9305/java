@@ -4,7 +4,7 @@ una asociacion se da cuando tengo una clase que tiene atributos de tipo  otra cl
 
 Por eso la asociacion se le conoce con el nombre de "relacion de tipo" o "Tiene un"
 
-![claseasociacion](/imagenesjava/claseasociacion.png)
+![claseasociacion](/imagenesjava/claseasociaciones.png)
 
 ### ¿Como represento una asociacion?
 
