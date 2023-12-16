@@ -82,6 +82,7 @@ Cuando tenemos este tipo de situaciones donde una clase conoce la existencia de 
 de una relacion de uso o dependencia, entre la clase impresora y documento, es una relacion un poco mas debil, pero es una relacion al fin al cabo, si nosotros movemos de paquete la clase documento o le cambiamos su nombre o la borramos, va a tener efectos en la clase impresora porque estamos conociendo su existencia.
 
 
+### Diagrama uml
 
 
 ![umldependencia](/imagenesjava/umldependencia.png)
