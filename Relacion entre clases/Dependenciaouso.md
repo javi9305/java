@@ -36,7 +36,7 @@
      estaEncendida = true;
  }
     
-   public void imprimir(Documento doc){
+   public void imprimir(Documento doc){ //parametro de tipo Documento (dependencia o uso)
     if(estaEncendida){
         System.out.println("Imprimiendo doc " + doc.getTitulo());
         System.out.println("****************");
@@ -75,7 +75,7 @@ tendriamos que ir a la clase impresora y observar algun atributo o algunos atrib
 Esto no implica de todas formas que documento e impresora no tengan relacion. ¿por que?
 
 porque en la clase impresora se conoce la existencia de la clase documento, ya que en uno de sus metodos, aparece el tipo de dato documento, en
-este caso particular se obtiene un documento via parametro, pero tambien pudimos haber generado un documento como variable local, haber devuelto un documento, entonces el tipo de retorno seria documento en lugar de void, pero no necesariamente el documento es un atributo.
+este caso particular se obtiene un documento via parametro, pero tambien pudimos haber generado un documento como variable local, haber devuelto un documento, entonces el tipo de retorno seria documento en lugar de void, pero no necesariamente el documento es un atributo. (si el retorno fuera documento, aqui tambien existiria una dependencia o uso)
 
 
 Cuando tenemos este tipo de situaciones donde una clase conoce la existencia de la otra pero no necesariamente, teniendola como atributo, entonces estamos hablando
