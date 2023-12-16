@@ -1,6 +1,6 @@
 ### ¿Cuando se da una asociacion ?
 
-una asociacion se da cuando tengo una clase que tiene atributos de tipo  otra clase, por ejemplo cuando yo digo que una cuenta tiene dinero, una cuenta tiene un titular que es un cliente.
+una asociacion se da cuando tengo una clase que tiene atributos de tipo  otra clase, por ejemplo cuando yo digo que una cuenta tiene dinero o tambien una cuenta tiene un titular que es un cliente.
 
 Por eso la asociacion se le conoce con el nombre de "relacion de tipo" o "Tiene un"
 
