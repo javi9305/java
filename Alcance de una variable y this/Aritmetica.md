@@ -11,6 +11,7 @@ public class Aritmetica {
         System.out.println("Ejecutando constructor vacio");
     }
     
+    //Recibe los 2 argumentos: operandoA y operandoB
     public Aritmetica(int arg1, int arg2){
         a = arg1;
         b = arg2;
@@ -36,4 +37,4 @@ public class Aritmetica {
     }
 }
 
-`````` java
+``````
