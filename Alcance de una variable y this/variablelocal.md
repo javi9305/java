@@ -32,9 +32,9 @@ public void otroMetodo(){
 }
 
 
-//Creamos un objeto de la clase Aritmetica enviando argumentos
-       //Usamos las variables locales para inicializar nuestro objeto aritmetica.
 
+      
+    //Creamos un objeto de la clase Aritmetica enviando argumentos
        /*
         Estamos utilizando nuestras variables locales para inicializar nuestro objeto aritmetica,
         posteriormente nuestro objeto aritmetica con los valores de las variables locales recibidas
