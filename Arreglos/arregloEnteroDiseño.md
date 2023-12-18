@@ -4,6 +4,7 @@ Lo que estamos haciendo es reservar en memoria 3 espacios, para almacenar por co
 
 
 Int edades[];
+
 edades = new edades[3];
 
 ![arregloentero](/imagenesjava/arregloentero.png "arregloentero")
