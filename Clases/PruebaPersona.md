@@ -57,6 +57,7 @@ Asi se representa persona1 = new Persona(), **(Ver imagen 1.1.)**
 lo que hizo la variable persona1 es que accedio a nuestro objeto y los modificó (los valores de los atributos persona1)
 por ello es que cuando se mando a llamar el metodo desplegarNombres()
 lo que imprime son los atributos del objeto y no los valores de la clase.
+
 Basicamente lo que se hace es que la plantilla de Persona crea un
 objeto a su semejanza es decir con los atributos y metodos que hemos definido
 en nuestra plantilla pero los valores no se estan modificando en nuestra
@@ -108,10 +109,9 @@ el primer objeto tiene los valores de juan perez y el segundo objeto tiene el va
 
 
 
- estos objetos se depositan en algun lugar de la memoria, por ejemplo si ponemos un valor hexadecimal que es la direccion de memoria 0x333, este es el valor de memoria donde se encuentra el objeto persona, a esta direccion de memoria se le conoce como referencia del objeto, y realmente lo que almacena la variable persona1 es el valor de la referencia de la memoria del objeto.
-
- asi que de esta manera la variable persona1 apunta al objeto que se ha creado en esta direccion de memoria 
- (0 x333). y cada vez que utilizamos la palabra reservada new  es que se crea un objeto y se le asigna una referencia en memoria  dinamicamente, esto lo hace automaticamente el compilador de java o la maquina virtual de java y la segunda vez que se mando a llamar la palabra new  y se creo este segundo objeto y se deposito por ejemplo en la referencia de memoria en 0x444.
+ Estos objetos se depositan en algun lugar de la memoria, por ejemplo si ponemos un valor hexadecimal que es la direccion de memoria 0x333, este es el valor de memoria donde se encuentra el objeto persona, a esta direccion de memoria se le conoce como referencia del objeto, y realmente lo que almacena la variable persona1 es el valor de la referencia de la memoria del objeto.asi que de esta manera la variable persona1 apunta al objeto que se ha creado en esta direccion de memoria (0 x333). 
+ 
+ Y cada vez que utilizamos la palabra reservada new  es que se crea un objeto y se le asigna una referencia en memoria  dinamicamente, esto lo hace automaticamente el compilador de java o la maquina virtual de java y la segunda vez que se mando a llamar la palabra new  y se creo este segundo objeto y se deposito por ejemplo en la referencia de memoria en 0x444.
 
  las variables almacenan la direccion de memoria de los objetos, esta caracteristica en otros lenguajes se le conoce como apuntadores.
 
