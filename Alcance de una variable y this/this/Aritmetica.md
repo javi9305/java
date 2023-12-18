@@ -69,13 +69,12 @@ public class Aritmetica {
 
 - Podemos observar que en automatico el compilador a creado esta variable llamada this, a travez de la 
 variable this que se ha creado es que podemos hacer referencia al objeto aritmetica que se ha creado tambien
-en la direccion de memoria.
-
-es decir como estamos dentro de la clase aritmetica y se ha creado un objeto en memoria por ejemplo 0 x 333 y por lo tanto this apunta al objeto que se ha creado en la direccion de memoria 0 x 333.
+en la direccion de memoria, es decir como estamos dentro de la clase aritmetica y se ha creado un objeto en memoria por ejemplo 0 x 333 y por lo tanto this apunta al objeto que se ha creado en la direccion de memoria 0 x 333.
 
 - una vez que salimos de la ejecucion de esta clase entonces el operador this cambia y apunta a otra clase.
 
 - el operador this es de tipo aritmetica ya que esta apuntando a un objeto de tipo aritmetica.
+
 
 podemos observar que el operador this puede acceder a los atributos de la clase.
 
