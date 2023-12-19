@@ -7,22 +7,23 @@
         //Para asignarle un valor a esta variable necesitamos instanciar nuestra clase persona.
         Persona persona1;
         
-        //Instanciando (creando) un objeto de la clase Persona
-        /*
-        - va a crear un objeto de nuestra clase Persona. sin embargo necesitamos asignarlo a nuestra variable persona1 de lo contrario no vamos a poder acceder a este objeto.
+//Instanciando (creando) un objeto de la clase Persona
+ /*
+ - va a crear un objeto de nuestra clase Persona. sin embargo necesitamos asignarlo a nuestra variable 
+ persona1 de lo contrario no vamos a poder acceder a este objeto.
         
-        - Esta linea lo que va a hacer es lo siguiente:
-          De nuestra plantilla Persona, la palabra new va a crear un nuevo objeto
-          de tipo Persona, pero necesitamos que nuestra variable persona1
-          apunte al objeto que se acaba de crear y para que pueda acceder al objeto
-          que se acaba de crear entonces hacemos lo siguiente:
+ - Esta linea lo que va a hacer es lo siguiente:
+De nuestra plantilla Persona, la palabra new va a crear un nuevo objeto
+de tipo Persona, pero necesitamos que nuestra variable persona1
+apunte al objeto que se acaba de crear y para que pueda acceder al objeto
+que se acaba de crear entonces hacemos lo siguiente:
 
-          persona1 = new Persona();
+persona1 = new Persona();
 
-          persona1 debe recibir el valor donde se ha creado este objeto,
-          en el lado derecho lo que estamos haciendo es que estamos creando el objeto
-          y el valor donde se ha creado este objeto entonces se le proporciona a la
-          persona1 para que se pueda acceder al objeto que se creado.
+ persona1 debe recibir el valor donde se ha creado este objeto,
+en el lado derecho lo que estamos haciendo es que estamos creando el objeto
+y el valor donde se ha creado este objeto entonces se le proporciona a la
+ persona1 para que se pueda acceder al objeto que se creado.
         
         */
         persona1 = new Persona(); 
