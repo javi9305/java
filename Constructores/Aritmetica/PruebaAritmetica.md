@@ -32,7 +32,7 @@ public static void main(String[] args) {
         haciendo es mandar a llamar al constructor que esta definido en nuestra plantilla, y lo que va a hacer 
         este constructor es crear un objeto solicitando espacio de memoria para crear este objeto (new Aritmetica) y ese objeto
         se creo en el espacio de memoria que nos ha indicado java y posteriomente la variable aritmetica apunta
-        al objeto que se ha creado en el espacio de memoria que no ha proporcionado el constructor vacio.
+        al objeto que se ha creado en el espacio de memoria que nos ha proporcionado el constructor vacio.
         */
 
         Aritmetica aritmetica = new Aritmetica(); //mandamos a llamar al constructor vacio.
