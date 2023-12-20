@@ -49,8 +49,9 @@ public class Persona {
     
     //Para saber cuantos objetos de tipo persona se han creado.
     /*
-     Ya que cada vez que se crea un objeto persona se esta incrementando la variable contadorPersonas, ya que se asocia con la clase.
-     el metodo va a hacer de tipo static ya que lo que va a utilizar es nuestra variable estatica contadorPersonas.
+    Ya que cada vez que se crea un objeto persona se esta incrementando la variable contadorPersonas,
+    ya que se asocia con la clase. el metodo va a hacer de tipo static ya que lo que va a utilizar 
+    es nuestra variable estatica contadorPersonas.
     */
     public static int getContadorPersonas(){
      return contadorPersonas;
