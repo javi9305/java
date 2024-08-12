@@ -133,12 +133,15 @@ En esta guía que habla acerca de cómo generar números aleatorios con la clase
 Si deseas cambiar el uso del método Random.nextInt() por el método Math.random() debes eliminar la línea en donde se declara la variable rnd y cambiar las siguientes líneas de código:
 
 Matricula += rnd.nextInt(10);
+
 Por:
 
 Matricula += (int) Math.floor(Math.round() * 10);
+
 Y
 
 Matricula += (char)(rndnextInt(91) + 65);
+
 Por:
 
 Matrícula += (char)((int) Math.floor(Math.round() * 91 + 65));
