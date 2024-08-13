@@ -148,3 +148,6 @@ Matrícula += (char)((int) Math.floor(Math.round() * 91 + 65));
 
 Para mas informacion, visitar la pagina: 
 [https://es.stackoverflow.com/questions/159410/como-se-puede-generar-caracteres-aleatorios-con-math-random](https://es.stackoverflow.com/questions/159410/como-se-puede-generar-caracteres-aleatorios-con-math-random)
+
+o esta pagina
+[https://codegym.cc/es/groups/posts/es.825.clase-java-util-random](https://codegym.cc/es/groups/posts/es.825.clase-java-util-random)
