@@ -22,7 +22,13 @@ public class Concatenacion {
         var j = 4;
         
         System.out.println(i + j);//se realiza la suma de numeros.
-        System.out.println(i + j + usuario);//Evaluacion de izq a der y posteriormente realiza suma y luego se concatena el valor de la cadena.
+
+        /*
+        //Evaluacion de izq a der y posteriormente realiza suma 
+        y luego se concatena el valor de la cadena.
+        */
+        System.out.println(i + j + usuario);
+        
         System.out.println(usuario + i + j);//Contexto cadena,todo es una cadena es decir todo lo toma como una cadena.
         System.out.println(usuario + (i + j));//Uso de parentesis modifican la prioridad en la evaluacion.
         
