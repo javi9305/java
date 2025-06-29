@@ -2,13 +2,15 @@
 **Se usa el var a partir de la versión 10 del jdk, ademas es opcional**
 
 `````` java
-        /*Al utilizar var tiene una restriccion es decir que puede usarse en una sola linea. 
+        /*
+        Al utilizar var tiene una restriccion es decir que puede usarse en una sola linea. 
         -> si lo hacemos asi: var a = 3, b = 4; -> marcaria error. 
         */
+
        /*
-       
+       Asigno un valor entero a la variable la cual sabra que es un numero entero(Inferencia de tipos)
        */
-        var miVariableEntera2 = 15; //Asigno un valor entero a la variable la cual sabra que es un numero entero(Inferencia de tipos)
+        var miVariableEntera2 = 15; 
         System.out.println(miVariableEntera2); //Imprime el valor de la variable
 
         var miVariableCadena2 = "Nueva Cadena"; //Asigno una cadena a una variable la cual sabra que es una cadena.
