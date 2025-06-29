@@ -37,6 +37,7 @@ Es decir:
 Mientras que:
 
 
-        nt x = 5;
-        System.out.println(x++);  // Imprime 5, x vale 6. La variable x ya es 6 pero el resultado de la expresión es 5 por lo que se imprime 5
+        int x = 5;
+        System.out.println(x++);  // Imprime 5, x vale 6. La variable x ya es 6 pero el resultado 
+                                     de la expresión es 5 por lo que se imprime 5
         System.out.println(x); // Imprime 6, x vale 6: x ya se incrementó por lo que devuelve 6
