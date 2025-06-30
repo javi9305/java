@@ -4,12 +4,20 @@
 public static void main (String [] args){
 
 float floatVar = 1000
-System.out.println("floatVar = " + floatVar); //1000.0 se imprime este valor es decir que en automatico se agrega un decimal.
+//1000.0 se imprime este valor es decir que en automatico se agrega un decimal.
+System.out.println("floatVar = " + floatVar); 
 
 
+/*
+si a nuestro numero le agregamos un tipo flotante, marcaria un error ya que por 
+default las literales en java de tipo flotante  son de tipo double.
 
-float floatVar = 1000.10 //si a nuestro numero le agregamos un tipo flotante, marcaria un error ya que por default las literales en java de tipo flotante  son de tipo double. 
-                         //El error que marca es incompatibilidad de tipos, ya que existe posible perdida de informacion al querer convertir la literal de tipo double a tipo float.
+El error que marca es incompatibilidad de tipos, ya que existe posible perdida de 
+informacion al querer convertir la literal de tipo double a tipo float.
+
+*/
+float floatVar = 1000.10 
+                         
 System.out.println("floatVar = " + floatVar); 
 
 
